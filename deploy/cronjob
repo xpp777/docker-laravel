@@ -1,0 +1,2 @@
+* * * * * /usr/local/bin/php /var/www/html/artisan crontab:run >> /var/www/html/storage/logs/crontab.log 2>&1
+* * * * * /usr/local/bin/php /var/www/html/artisan schedule:run >> /var/www/html/storage/logs/schedule.log 2>&1
